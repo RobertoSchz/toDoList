@@ -55,7 +55,7 @@ function addTaskToUI(task) {
     taskItem.innerHTML = `
         <h3>${task.title}</h3>
         <p>${task.description}</p>
-        <button class "complete-button">Completar</button>
+        <button class="complete-button">Completar</button>
         <button class="delete-button">Eliminar</button>
     `;
 
